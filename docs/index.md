@@ -1,6 +1,10 @@
 ## Work
 
 ### Computer Science
+
+[Analysis of Vital Signs through SAX and Support Vector Machines](./vs_sax_svm)<br />
+July 2020
+
 [Sorted Sequences](./sorted_sequences)<br />
 May 2020
 
