@@ -38,9 +38,9 @@ Cell viability is the quantification of the number of live cells. Below 0 repres
 
 In these specific tests, most cells died around 100. If they passed 100, they were most resistant to the drug treatment.
 
-#### Summary of the data
+|Summary of the data|
 | cellLine |    drug   | ic50 CCLE | auc CCLE  | ic50 GDSC  | auc GDSC |
-|----------|:---------:|----------:|-----------|------------|----------|
+|----------|---------|----------|-----------|------------|----------|
 | 22RV1    | Nilotinib | 8.000000  | 0.0000000 | 155.269917 | 0.003935 |
 | 5637     | Nilotinib | 7.475355  | 0.0072625 | 219.934550 | 0.003616 |
 | 639-V    | Nilotinib | 8.000000  | 0.0710125 | 92.177125  | 0.007622 |
@@ -55,10 +55,25 @@ We got Ic50 (concentration at which cell growth is inhibited 50%) and auc (area 
 Based on observing the data on this histogram Viability  per Count by Concentrations we can see the viability of drugs by concentrations isn't consistent.
 
 
+|Calculating Correlation Coefficient Pearson vs Spearman|
+| drug |    Pearson ic50   | Spearman ic50 |
+|----------|---------|----------|
+| 17-AAG     | 0.54314746 | 0.58561036 |
+| AZD0530    | 0.45547653 | 0.35966251 |
+| AZD6244    | 0.31977283 | 0.24393054 |
+| Crizotinib | 0.40938256 | 0.10594891 |
+| Erlotinib  | 0.08123348 | 0.08000003 |
+| lapatinib  | 0.42661370 | 0.28939931 |
+| Nilotinib  | 0.61112054 | 0.12182947 |
+| Nutlin-3   | 0.14320626 | 0.30580264 |
+| paclitaxel | 0.21072510 | 0.34988436 |
+| PD-0325901 | 0.62467771 | 0.58014767 |
 
+These drugs studies have large sparsity. Spearman correlations allow us to work with normal data and make a better estimate of correlation. Since we are't working with a normal distributed data it is better for this case to use over Pearson and calculating with a distance correlation, which is sensitive to nonlinear relationships we got 0.6344005.
 
+![](replicathon_2020_plot.png)
 
-
+Based on the correlation made comparing the AUC of CCLE vs GDSC we can see  `0.6344005` as correlation between auc_CCLE vs auc_GDSC, and based on the other previous correlation analysis it seems to be a correlation between the studies of AUCs but not between studies and IC50s.
 
 
 
