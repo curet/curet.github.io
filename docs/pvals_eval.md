@@ -106,6 +106,9 @@ abline(h=1 , col="red")
 abline(v=0.5, col="green", lty=2, lwd=3)
 ```
 
+![](pvals_eval_img1.png)
+
+
 ![](web_plvals_eval_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
 
   - Observando esta gráfica, tenemos que es relativamente uniforme, los
@@ -194,3 +197,5 @@ sumQvals
     tener un poco más de error tipo I, pues podría usar Benjamini &
     Hochberg o qvalue. Si al contrario prefiere ser un poco conservador
     y prefiere tener errores de tipo II, pues podría escoger Bonferroni.
+
+[return to Work](./)
