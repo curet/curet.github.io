@@ -73,7 +73,7 @@ These drugs studies have large sparsity. Spearman correlations allow us to work 
 
 ![](replicathon_2020_plot.png)
 
-Based on the correlation made comparing the AUC of CCLE vs GDSC we can see  `0.6344005` as correlation between auc_CCLE vs auc_GDSC, and based on the other previous correlation analysis it seems to be a correlation between the studies of AUCs but not between studies and IC50s.
+On the correlation made comparing the AUC of CCLE vs GDSC we can see  `0.6344005` as correlation between auc_CCLE vs auc_GDSC, and based on the other previous correlation analysis it seems to be a correlation between the studies of AUCs but not between studies and IC50s.
 
 
 
