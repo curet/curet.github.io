@@ -10,7 +10,7 @@ In June we participated in a replicathon with the objective to do an analysis an
 The dataset has 288 unrepeated cellines
 
 |8 CCLE drug concentrations|        
-|--------|-------|-------|------|------|-----|------|---|
+|--------|:-------:|-------:|------|------|-----|------|---|
 |0.0025  |0.008  |0.025  |0.08  |0.25  |0.8  |2.53  |8  
 
 | 32 GDSC drug concentrations|
