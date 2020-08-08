@@ -17,7 +17,7 @@ April 2020
 [<hr style="height:0.5px;border-width:0;color:gray;background-color:gray">]:#
 
 ### Statistics and Visualizations
-[Replicathon 2020](./replicathon_2020)<br />
+[Replicathon 2020 - IQ BIO REU](./replicathon_2020)<br />
 June 2020
 
 [Evaluating p-values](./pvals_eval)<br />
