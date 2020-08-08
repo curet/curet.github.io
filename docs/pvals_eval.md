@@ -1,6 +1,10 @@
-## Evaluating p-values
+Evaluating p-values
+================
+José C.S. Curet
 
-The objective of this project was to evaluate the effectiviness of different p-value methods. Using the some of the data from the following publication:
+The objective of this project was to evaluate the effectiviness of
+different p-value methods. Using the some of the data from the following
+publication:
 
 Elias D, Vever H, Lænkholm AV, et al. *Gene expression profiling
 identifies FYN as an important molecule in tamoxifen resistance and a
@@ -9,20 +13,9 @@ therapy* \[published correction appears in Oncogene. 2018
 Oct;37(41):5585-5586\]. Oncogene. 2015;34(15):1919‐1927.
 <doi:10.1038/onc.2014.138>
 
-
-``` r
-# Si no ha instalado el paquete BiocManager, puede hacerlo con install.packages("BiocManager")
-library(BiocManager)
-#BiocManager::install("Biobase")
-#BiocManager::install("GEOquery")
-# Debería haber instalado "genefilter" para los ejercicios del curso en edX. 
-# Si no lo ha instalado elimine el comentario de la siguiente instruccion
-#BiocManager::install("genefilter")
-library(GEOquery)
-library(genefilter)
-```
-
-A continuación obtendremos el conjunto de datos
+In this article they present breast cancer cells susceptibles and
+resistant to Tamoxifeno, then they compare the gene expression with the
+cells susceptibility to the drug.
 
     ## Found 1 file(s)
 
@@ -113,7 +106,7 @@ abline(h=1 , col="red")
 abline(v=0.5, col="green", lty=2, lwd=3)
 ```
 
-![](typeof_pvalues_evaluations_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
+![](web_plvals_eval_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
 
   - Observando esta gráfica, tenemos que es relativamente uniforme, los
     valores distribuidos desde 0 a 1, observamos un pico de p valores
@@ -201,26 +194,3 @@ sumQvals
     tener un poco más de error tipo I, pues podría usar Benjamini &
     Hochberg o qvalue. Si al contrario prefiere ser un poco conservador
     y prefiere tener errores de tipo II, pues podría escoger Bonferroni.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[return to Work](./)
