@@ -1,0 +1,47 @@
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    color: #222;
+  }
+
+  .filler {
+    min-height: 100vh;
+    width: 100%;
+    min-width: 900px;
+    text-align: left;
+    background-color: #d6e3ff;
+    display: inline-block;
+    align-items: center;
+    line-height: 1.5em;
+    padding: 70px;
+    padding-left: max(100px, 15%);
+    padding-right: max(100px, 15%);
+    box-sizing: border-box;
+    font-family: 'Palatino', serif;
+    font-size: 1.1em;
+  }
+  
+  .filler:first-of-type {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1em;
+  }
+
+  
+  .translate #content {
+    width: 400px;
+  }
+  
+  .hdev {
+    font-family: sans-serif;
+  }
+  
+  h1 {
+    font-weight: 300;
+    font-size: 5em;
+    line-height: 1em;
+    font-family: 'Palatino', sans-serif;
+    margin-bottom: 20px;
+  }
+  
