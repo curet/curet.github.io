@@ -24,7 +24,7 @@ body {
   .header:first-of-type {
     background-color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     font-size: 1em;
   }
 
@@ -39,6 +39,22 @@ body {
     font-family: 'Palatino', sans-serif;
     margin-bottom: 20px;
   }
+/* 
+  dt {
+    /* font-size: 2em;
+    font-family: 'Inconsolata', sans-serif;
+    height: 200px;
+    line-height: 25rem;
+    color: red; */
+    /* padding: 0.25rem 1rem; */
+    /* position: -webkit-sticky; /* for safari */
+    /* position: sticky;
+    top: 0;
+    background-color: green;
+    border: 2px solid #4CAF50; */
+  /* } */
+
+
 
   code {
     font-family: monospace;
@@ -60,16 +76,36 @@ body {
   
     font-size: 1.5em;
     background-color: #111;
-    justify-content: space-around;
+    justify-content: center;
     padding-top: max(100px, 7.5%);
     padding-left: max(60px, 2%);
     padding-right: max(60px, 2%);
+
+    position: -webkit-sticky;
+    position: sticky;
+    /* width: 100%; */
+    /* height: 500px; */
+    /* margin: 0; */
+    top: calc(30% - 250px);
+    left: 0;
+  }
+
+  div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    padding: 0.25rem 1rem;
+    top: 20rem;
+    /* padding: 5px; */
+    background-color: #cae8ca;
+    border: 2px solid #4CAF50;
   }
   
-  .centered #language{
+  /* .language{
     font-size: 2em;
     font-family: 'Inconsolata', sans-serif;
-  }
+  } */
+
+
 
   .centered {
     /* position: absolute; */
@@ -90,4 +126,10 @@ body {
     padding-top: max(100px, 20%);
     /*padding-left: max(60px, 2%);
     padding-right: max(60px, 2%); */
+
+
+    position: -webkit-sticky;
+    position: sticky;
+    top: calc(30% - 250px);
+    left: 0;
   }
