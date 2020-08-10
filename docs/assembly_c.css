@@ -47,14 +47,17 @@ body {
   .translate {
     min-height: 100vh;
     /* min-width: 600px; */
-    width: 100%;
+    box-sizing: border-box;
+    /*width: 100%;
+    border: 100px #111 100px;
+    padding: 5px; */
     /* background-color: black; */
     display: flex;
     /* justify-content: space-around; */
     color: #edeeee;
     /* box-sizing: border-box; */
     /* height: auto; */
-    box-sizing: border-box;
+  
     font-size: 1.5em;
     background-color: #111;
     justify-content: space-around;
@@ -63,7 +66,6 @@ body {
     padding-right: max(60px, 2%);
   }
   
-
   .centered #language{
     font-size: 2em;
     font-family: 'Inconsolata', sans-serif;
