@@ -18,7 +18,7 @@ body {
     padding-right: max(100px, 15%);
     box-sizing: border-box;
     font-family: 'Palatino', serif;
-    font-size: 1.1em;
+    /* font-size: 1.1em; */
   }
 
   .header:first-of-type {
@@ -26,6 +26,10 @@ body {
     display: flex;
     justify-content: space-around;
     font-size: 1em;
+  }
+
+  p {
+    font-size: 1.1em;
   }
   
   h1 {
@@ -35,10 +39,15 @@ body {
     font-family: 'Palatino', sans-serif;
     margin-bottom: 20px;
   }
- 
+
+  code {
+    font-family: monospace;
+  }
+
   .translate {
     min-height: 100vh;
-    min-width: 600px; /* reduced side by side boxed size */
+    /* min-width: 600px; */
+    width: 100%;
     /* background-color: black; */
     display: flex;
     /* justify-content: space-around; */
@@ -46,35 +55,19 @@ body {
     /* box-sizing: border-box; */
     /* height: auto; */
     box-sizing: border-box;
-    font-size: 2em;
+    font-size: 1.5em;
+    background-color: #111;
+    justify-content: space-around;
+    padding-top: max(100px, 7.5%);
+    padding-left: max(60px, 2%);
+    padding-right: max(60px, 2%);
   }
+  
 
-  .split {
-    height: 100%;
-    width: 50%;
-    /* position: fixed; */
-    z-index: 1;
-    top: 0;
-    overflow-x: hidden;
-    padding-top: 20px;
-    /* box-sizing: border-box;  */
-  }
-  
-  .left {
-    left: 0;
-    background-color: #111;
-  }
-  
-  .right {
-    right: 0;
-    background-color: #111;
-  }
-  
   .centered #language{
     font-size: 2em;
     font-family: 'Inconsolata', sans-serif;
   }
-
 
   .centered {
     /* position: absolute; */

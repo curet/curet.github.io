@@ -13,7 +13,7 @@ function replace_test() {
 window.onscroll = function() {myFunction()};
 
 function myFunction() {
-  if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+  if (document.body.scrollTop > 850 || document.documentElement.scrollTop > 850) {
     replace_test()
   }
 }
