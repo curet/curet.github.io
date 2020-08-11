@@ -16,8 +16,6 @@ function replace_test(a, b) {
   return replaced;
 }
 
-window.onscroll = function() {myFunction()};
-
 function myFunction() {
   if (document.body.scrollTop > 850 || document.documentElement.scrollTop > 850) {
     replace_test(a, b)
@@ -28,3 +26,7 @@ function myFunction() {
   // }
 
 }
+
+window.onscroll = function() {
+  myFunction()
+};
