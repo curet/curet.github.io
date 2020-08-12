@@ -1,32 +1,45 @@
 
-let a = 'assembly_code'
-let b = 'c_code'
-
-function replace_test(a, b) {
+function replace_text(x, y) {
   
-  var original = document.getElementById(a).innerHTML;
-  var modified = document.getElementById(b).innerHTML;
+  let original = document.getElementById(x).innerHTML;
+  let modified = document.getElementById(y).innerHTML;
 //   for(i=0; i< (original.length - 1); i++){
 //     var replaced = original.replace(original[i], modified[i]);
 //   }
-   var replaced = original.replace(original, modified) 
+   let replaced = original.replace(original, modified) 
   
-  document.getElementById(a).innerHTML = replaced;
+  document.getElementById(x).innerHTML = replaced;
 
-  return replaced;
+  // return replaced;
 }
+
+function replace_text_b(x, y) {
+  
+  let original = document.getElementById(x).innerHTML;
+  let modified = document.getElementById(y).innerHTML;
+//   for(i=0; i< (original.length - 1); i++){
+//     var replaced = original.replace(original[i], modified[i]);
+//   }
+   let replaced = original.replace(original, modified) 
+  
+  document.getElementById(x).innerHTML = replaced;
+
+  // return replaced;
+}
+
+// let assembly_to_c = replace_text('assembly_code', 'c_code');
+// c_to_assembly = replace_text('c_code', 'assembly_code');
+
+
+window.onscroll = function() {myFunction()};
 
 function myFunction() {
   if (document.body.scrollTop > 920 || document.documentElement.scrollTop > 920) {
-    replace_test(a, b)
+    // assembly_to_c
+    let assembly_to_c = replace_text('assembly_code', 'c_code');
+    // assembly_to_c
   }
-
-  // if (document.body.scrollTop < 850 || document.documentElement.scrollTop < 850) {
-  //   replace_test(b, a)
-  // }
-
+  else{
+    // let c_to_assembly = replace_text('c_code', 'assembly_code');
+  }
 }
-
-window.onscroll = function() {
-  myFunction()
-};
