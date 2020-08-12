@@ -15,7 +15,6 @@ body {
     min-width: 900px;
     text-align: left;
     background-color: #edeeee;
-    /* display: inline-block; */
     align-items: center;
     line-height: 1.5em;
     padding: 70px;
@@ -23,7 +22,6 @@ body {
     padding-right: max(100px, 15%);
     box-sizing: border-box;
     font-family: 'Palatino', serif;
-    /* font-size: 1.1em; */
   }
 
   .header:first-of-type {
@@ -45,7 +43,6 @@ body {
     margin-bottom: 20px;
   }
 
-
   code {
     font-family: monospace;
   }
@@ -55,66 +52,63 @@ body {
     box-sizing: border-box;
     display: flex;
     color: #edeeee;
-    font-size: 1.5em;
+    font-size: 1.15em;
     background-color: #111;
     justify-content: center;
-    padding-top: max(50px, 7.5%);
-    padding-left: max(60px, 2%);
-    padding-right: max(60px, 2%);
+    padding-top: max(20px, 5%);
     position: -webkit-sticky;
     position: sticky;
     width: 70%;
-    top: calc(30% - 250px);
+    top: calc(25% - 250px);
     left: 0;
-    z-index: -1;
   }
 
   .floating {
     float: right;
-    top: 10rem;
-    padding: 5rem 1rem;
+    padding-top: max(10px, 10%);
     width: 30%;
     height: 1200px;
-    font-size: 4em; 
+    font-size: 5em; 
     background-color: #111;
     color: #edeeee;
     z-index: -1;
 
   }
 
-  .really_sticky{
+  .lang_{
     position: -webkit-sticky;
     position: sticky;
     padding: 12.5rem 1rem;
     justify-content: center;
+    font-family: monospace;
 
   }
 
   .centered {
-    /* position: absolute; */
     top: 50%;
     left: 50%;
-    /* transform: translate(-50%, -50%); */
     text-align: left;
   }
 
   .footer {
     min-height: 100vh;
-    background-color: rgb(119, 221, 232);
+    background-color: darkturquoise;
+    color: #e8e9e9; /* text color */
     box-sizing: border-box;
     display: flex;
-    color: #e8e9e9;
     font-size: 1.5em;
-    justify-content: space-around;
-    padding-top: max(100px, 20%);
-    /*padding-left: max(60px, 2%);
-    padding-right: max(60px, 2%); */
-
-
+    justify-content: center;
+    padding-top: max(10px, 15%);
     position: -webkit-sticky;
     position: sticky;
     top: calc(30% - 250px);
     left: 0;
-    z-index: 999;
+    z-index: 995;
     width: 100%;
+    padding-left: max(100px, 20%);
+    padding-right: max(100px, 20%);
+  }
+
+  strong {
+    font-family: 'Roboto Bold', serif;
   }

@@ -28,10 +28,10 @@
 
     <section class = 'floating'>
 
-      <div class="really_sticky">
+      <div class="lang_">
             ASSEMBLY
       </div>
-      <div class="really_sticky">
+      <div class="lang_">
                C
       </div>
 
@@ -41,16 +41,64 @@
       
       <div class='translate left'>
         <div class='centered'>
-          <p id='demo'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita sunt harum ex aut perferendis magnam iusto, tempora veritatis, repellendus eum ipsam, consequatur suscipit. Iusto excepturi, facilis quis eos velit ex.</p>
+          <p id='assembly_code'>
+
+            <code>
+                  Dump of assembler code for function func4:</br>
+                  0x0000000000400fd2 <+0>: push %rbx</br>
+                  0x0000000000400fd3 <+1>: mov %edx, %eax</br>
+                  0x0000000000400fd5 <+3>: sub %esi, %eax</br>
+                  0x0000000000400fd7 <+5>: mov %eax, %ebx</br>
+                  0x0000000000400fd9 <+7>: shr %0x1f, %ebx</br>
+                  0x0000000000400fdc <+10>: add %ebx, %eax</br>
+                  0x0000000000400fde <+12>: sar %eax</br>
+                  0x0000000000400fe0 <+14>: lea (%rax,%rsi,1), %ebx</br>
+                  0x0000000000400fe3 <+17>: cmp %edi, %ebx</br>
+                  0x0000000000400fe5 <+19>: jle 0x400ff3 <func4+33></br>
+                  0x0000000000400fe7 <+21>: lea -0x1(%rbx), %edx</br>
+
+                  0x0000000000400fea <+24>: callq 0x400fd2 <func4></br>
+                  0x0000000000400fef <+29>: add %ebx, %eax</br>
+                  0x0000000000400ff1 <+31>: jmp 0x401003 <func4+49></br>
+                  0x0000000000400ff3 <+33>: mov %ebx, %eax</br>
+                  0x0000000000400ff5 <+35>: cmp %edi, %ebx</br>
+                  0x0000000000400ff7 <+37>: jge 0x401003 <func4+49></br>
+                  0x0000000000400ff9 <+39>: lea 0x1(%rbx), %esi</br>
+                  0x0000000000400ffc <+42>: callq 0x400fd2 <func4></br>
+                  0x0000000000401001 <+47>: add %ebx, %eax</br>
+                  0x0000000000401003 <+49>: pop %rbx</br>
+                  0x0000000000401004 <+50>: retq </br>
+            </code>
+          </p>
     
-          <p id='new_demo' style="display:none">
+          <p id='c_code' style="display:none">
             
               <code>
-                #include <iostream>
-                using namespace std;
-                int main(){
-                  cout << "Hello, world!"
-                }
+                    #include <stdio.h>
+
+                      int func4(int a, int b, int c) {</br>
+                      int x = c - b;</br>
+                      int y = x >> 0x1f;</br>
+                          x += y;</br>
+                          x >>=1;</br>
+                          y = b + x;</br>
+                          if (y <= a){</br>
+                              
+                              if(y>=a) return y;</br>
+                              
+                              else return func4(a,y+1,c) + y;</br>
+                      
+                          }else{return func4(a,b,y-1) + y;}</br>
+                      }</br>
+                      int main(){</br>
+                      
+                          int a,b,c;</br>
+                      
+                          printf("Enter three values\n");</br>
+                          scanf("%d %d %d", &a, &b, &c);</br>
+                      
+                          printf("%d", func4(a,b,c));</br>
+                      }
               </code>
 
           </p>
@@ -59,10 +107,15 @@
 
     </section>
 
-    <section class = 'footer'>
-      <p>Something will end up here</p>
-    </section>
+    <section class = 'footer'> 
+          <p>The code on assebly was a function part of the <strong>phase 4</strong> of a project for an architecture class, <strong>binary bomb</strong>,
+            which objective was to go through all the phases without exploding the bomb. </br></br>
+            
+            It was necessary to understand what was happening in the code to be able to extract hidden numbers to be able to go to the next phase.</br></br>
 
+            This was a really fun project, probably will do it again another time, just to keep my assembly understanding, while having some fun.
+          </p>   
+    </section>
   </body>
 
 </html>

@@ -1,6 +1,6 @@
 
-let a = "demo"
-let b = "new_demo"
+let a = 'assembly_code'
+let b = 'c_code'
 
 function replace_test(a, b) {
   
@@ -17,7 +17,7 @@ function replace_test(a, b) {
 }
 
 function myFunction() {
-  if (document.body.scrollTop > 850 || document.documentElement.scrollTop > 850) {
+  if (document.body.scrollTop > 920 || document.documentElement.scrollTop > 920) {
     replace_test(a, b)
   }
 
