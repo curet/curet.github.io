@@ -11,10 +11,10 @@ June 2020
 [Sorted Sequences](./sorted_sequences)<br />
 May 2020
 
-[Assembly to C](./machine_assembly.html)<br />
+[Assembly to C](./assembly_c.html)<br />
 April 2020
 
-[Translate Machine language to Assembly](./assembly_c.html)<br />
+[Translate Machine language to Assembly](./machine_assembly)<br />
 April 2020
 
 [<hr style="height:0.5px;border-width:0;color:gray;background-color:gray">]:#
