@@ -56,7 +56,7 @@ body {
     background-color: #111;
     justify-content: left;
     padding-top: max(20px, 4.5%);
-    padding-left: max(30px, 10%);
+    padding-left: max(30px, 4%);
     position: -webkit-sticky;
     position: sticky;
     width: 100%;

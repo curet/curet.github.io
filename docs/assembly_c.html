@@ -42,61 +42,69 @@
       <div class='translate left'>
         <div class='centered'>
           <p>
-            <code id='assembly_code' style="display:contents">
-                  Dump of assembler code for function func4:</br>
-                  0x0000000000400fd2 <+0>: push %rbx</br>
-                  0x0000000000400fd3 <+1>: mov %edx, %eax</br>
-                  0x0000000000400fd5 <+3>: sub %esi, %eax</br>
-                  0x0000000000400fd7 <+5>: mov %eax, %ebx</br>
-                  0x0000000000400fd9 <+7>: shr %0x1f, %ebx</br>
-                  0x0000000000400fdc <+10>: add %ebx, %eax</br>
-                  0x0000000000400fde <+12>: sar %eax</br>
-                  0x0000000000400fe0 <+14>: lea (%rax,%rsi,1), %ebx</br>
-                  0x0000000000400fe3 <+17>: cmp %edi, %ebx</br>
-                  0x0000000000400fe5 <+19>: jle 0x400ff3 <func4+33></br>
-                  0x0000000000400fe7 <+21>: lea -0x1(%rbx), %edx</br>
+            <code >
+              <xmp id='assembly_code' style="display:contents">
+                  Dump of assembler code for function func4:
+                  0x0000000000400fd2 <+0>: push %rbx
+                  0x0000000000400fd3 <+1>: mov %edx, %eax
+                  0x0000000000400fd5 <+3>: sub %esi, %eax
+                  0x0000000000400fd7 <+5>: mov %eax, %ebx
+                  0x0000000000400fd9 <+7>: shr %0x1f, %ebx
+                  0x0000000000400fdc <+10>: add %ebx, %eax
+                  0x0000000000400fde <+12>: sar %eax
+                  0x0000000000400fe0 <+14>: lea (%rax,%rsi,1), %ebx
+                  0x0000000000400fe3 <+17>: cmp %edi, %ebx
+                  0x0000000000400fe5 <+19>: jle 0x400ff3 <func4+33>
+                  0x0000000000400fe7 <+21>: lea -0x1(%rbx), %edx
 
-                  0x0000000000400fea <+24>: callq 0x400fd2 <func4></br>
-                  0x0000000000400fef <+29>: add %ebx, %eax</br>
-                  0x0000000000400ff1 <+31>: jmp 0x401003 <func4+49></br>
-                  0x0000000000400ff3 <+33>: mov %ebx, %eax</br>
-                  0x0000000000400ff5 <+35>: cmp %edi, %ebx</br>
-                  0x0000000000400ff7 <+37>: jge 0x401003 <func4+49></br>
-                  0x0000000000400ff9 <+39>: lea 0x1(%rbx), %esi</br>
-                  0x0000000000400ffc <+42>: callq 0x400fd2 <func4></br>
-                  0x0000000000401001 <+47>: add %ebx, %eax</br>
-                  0x0000000000401003 <+49>: pop %rbx</br>
-                  0x0000000000401004 <+50>: retq </br></br></br></br></br> <!--This will be replaced correcting the style -->
+                  0x0000000000400fea <+24>: callq 0x400fd2 <func4>
+                  0x0000000000400fef <+29>: add %ebx, %eax
+                  0x0000000000400ff1 <+31>: jmp 0x401003 <func4+49>
+                  0x0000000000400ff3 <+33>: mov %ebx, %eax
+                  0x0000000000400ff5 <+35>: cmp %edi, %ebx
+                  0x0000000000400ff7 <+37>: jge 0x401003 <func4+49>
+                  0x0000000000400ff9 <+39>: lea 0x1(%rbx), %esi
+                  0x0000000000400ffc <+42>: callq 0x400fd2 <func4>
+                  0x0000000000401001 <+47>: add %ebx, %eax
+                  0x0000000000401003 <+49>: pop %rbx
+                  0x0000000000401004 <+50>: retq
+
+
+
+
+                  
+              </xmp>
             </code>
           </p>
     
           <p>
-              <code id='c_code' style="display:contents">
+              <code >
+                <xmp id='c_code' style="display:contents">
                     #include <stdio.h>
 
-                      int func4(int a, int b, int c) {</br>
-                      int x = c - b;</br>
-                      int y = x >> 0x1f;</br>
-                          x += y;</br>
-                          x >>=1;</br>
-                          y = b + x;</br>
-                          if (y <= a){</br>
+                      int func4(int a, int b, int c) {
+                      int x = c - b;
+                      int y = x >> 0x1f;
+                          x += y;
+                          x >>=1;
+                          y = b + x;
+                          if (y <= a){
                               
-                              if(y>=a) return y;</br>
-                              
-                              else return func4(a,y+1,c) + y;</br>
+                              if(y>=a) return y;
+                              else return func4(a,y+1,c) + y;
                       
-                          }else{return func4(a,b,y-1) + y;}</br>
-                      }</br>
-                      int main(){</br>
-                      
-                          int a,b,c;</br>
-                      
-                          printf("Enter three values\n");</br>
-                          scanf("%d %d %d", &a, &b, &c);</br>
-                      
-                          printf("%d", func4(a,b,c));</br>
+                          }else{return func4(a,b,y-1) + y;}
                       }
+                      int main(){
+                      
+                          int a,b,c;
+                      
+                          printf("Enter three values\n");
+                          scanf("%d %d %d", &a, &b, &c);
+                      
+                          printf("%d", func4(a,b,c));
+                      }
+                  </xmp>
               </code>
 
           </p>
