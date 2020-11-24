@@ -5,7 +5,7 @@ Based on an article in New York Times ["We Need to Recruit More Black Americans 
 
 
 ![](healthcare_b_perc.jpg)
-####image source: used during the presentation as part of the competition
+image used during the presentation as part of the competition
 
 The reason is very important for blacks, latinos and other minorities to participate in trials is to be able to create more accurate vaccines, capable of prevent and cure more effectively from different illness in higher percentages.
 
