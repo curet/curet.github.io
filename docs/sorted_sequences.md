@@ -10,6 +10,12 @@ This is a simple project for a programming class in C++, where I had to read a f
 
 ![](sortedSequence_3.gif)
 
+After analyzing the file the program produced the table below showing the
+time it took each algorithm to sort the sequences, per record or per sequence.
+
+First the time it took each algorithm in order each record.
+Second the time it took each algorithm to order the generated sequences.
+
 ![](sortedSequence_4.jpg)
 
 ![](sortedSequence_5.gif)
@@ -20,7 +26,7 @@ This is a simple project for a programming class in C++, where I had to read a f
 
 
 
-Project [GitHub](https://github.com/curet/SortedSequences)
+Project on [GitHub](https://github.com/curet/SortedSequences)
 
 
 
