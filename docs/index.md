@@ -2,6 +2,9 @@
 
 ### Computer Science
 
+[MIT Hacking Racism in Healthcare Challenge - HBCU Trust 5](./hbcu_t5)<br />
+October 2020
+
 [Analysis of Vital Signs through SAX and Support Vector Machines](./vs_sax_svm)<br />
 July 2020
 
@@ -11,7 +14,7 @@ June 2020
 [Sorted Sequences](./sorted_sequences)<br />
 May 2020
 
-[Assembly to C](./assembly_c.html)<br />
+[Translate Assembly to C](./assembly_c.html)<br />
 April 2020
 
 <!-- [Translate Machine language to Assembly](./machine_assembly)<br />
