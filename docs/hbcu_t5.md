@@ -1,7 +1,7 @@
 MIT Hacking Racism in Healthcare Challenge - HBCU Trust 5
 ================
 
-Based on an article in New York Times !["We Need to Recruit More Black Americans in Vaccine Trials"](https://www.nytimes.com/2020/09/11/opinion/vaccine-testing-black-americans.html?searchResultPosition=1). There they present numbers which reflects substantially higher mortality rate between Black or African-American than others groups, and we can see represented below.
+Based on an article in New York Times ["We Need to Recruit More Black Americans in Vaccine Trials"](https://www.nytimes.com/2020/09/11/opinion/vaccine-testing-black-americans.html?searchResultPosition=1). There they present numbers which reflects substantially higher mortality rate between Black or African-American than others groups, and we can see represented below.
 
 
 ![](healthcare_b_perc.jpg)
