@@ -1,11 +1,12 @@
 Sorted Sequences
 ================
 
-<!-- ![](randomSequences.gif)
 
-![](randomSequences_2.gif) -->
+![](randomSequences.gif)
 
-![](randomSequences_3.jpg)
+<!-- ![](randomSequences_2.gif) -->
+
+<!-- ![](randomSequences_3.jpg) -->
 
 <!-- ![](randomSequences_4.gif) -->
 
