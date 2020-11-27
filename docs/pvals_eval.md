@@ -3,7 +3,7 @@ Evaluating p-values
 José C.S. Curet
 
 The objective of this project for a statistic class was to evaluate the effectiviness of
-different p-value methods. Using the some of the data from the following
+different p-value methods. Using some of the data from the following
 publication:
 
 Elias D, Vever H, Lænkholm AV, et al. *Gene expression profiling
