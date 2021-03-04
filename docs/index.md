@@ -12,7 +12,7 @@ February 2021
 October 2020-->
 
 [Analysis of Vital Signs through SAX and Support Vector Machines](./vs_sax_svm)<br />
-//July 2020
+July 2020
 
 [MIT COVID-19 Challenge - Mallón](./mallon)<br />
 June 2020
