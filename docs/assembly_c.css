@@ -116,7 +116,7 @@ body {
 
 
   /* Mobile Styles */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 900px) {
 
   .header {
     min-width: 100%;
@@ -137,8 +137,9 @@ body {
   }
 
   .footer {
-    font-size: 5.3em;
+    font-size: 1.3em;
     padding-left: 12%;
     padding-right: 10%;
+    background-color: deeppink;
   } 
 }
