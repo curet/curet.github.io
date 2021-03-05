@@ -122,11 +122,6 @@ body {
     min-width: 100%;
   }
 
-  /* .translate {
-    width: 100%;
-  }
-  \ */
-
   .translate{
     padding-right: 30%;
     justify-content: center;
@@ -137,16 +132,12 @@ body {
     padding-right: 60%;
   }
 
-  /* .centered {
-    background-color: firebrick;
-  } */
-
   p {
-    font-size: 1.3em;
+    font-size: 5.3em;
   }
 
   .footer {
-    font-size: 1.2em;
+    font-size: 5.2em;
     padding-left: 12%;
     padding-right: 10%;
   } 
