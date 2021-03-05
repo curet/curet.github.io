@@ -37,4 +37,4 @@ May 2020
 
 ### Contact
 
-Feel free to write me: <a href="mailto:jose.sanchezcuret@upr.edu">jose.sanchezcuret@upr.edu</a>
+Write me at: <a href="mailto:jose.sanchezcuret@upr.edu">jose.sanchezcuret@upr.edu</a>
