@@ -116,7 +116,10 @@ body {
 
 
   /* Mobile Styles */
-@media only screen and (max-width: 900px) {
+@media only screen
+and (device-width : 414px) 
+and (device-height : 896px) 
+{
 
   .header {
     min-width: 100%;
