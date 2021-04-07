@@ -8,7 +8,7 @@ February 2021
 
 ### Computer Science
 
-[MIT Hacking Racism in Healthcare Challenge - HBCU Trust 5](./hbcu_t5)<br />
+[MIT Hacking Racism in Healthcare Challenge - HBCU Trust](./hbcu_t5)<br />
 October 2020
 
 [Analysis of Vital Signs through SAX and Support Vector Machines](./vs_sax_svm)<br />
