@@ -9,6 +9,8 @@ image used during the presentation as part of the competition
 
 The reason is very important for blacks, latinos and other minorities to participate in trials is to be able to create more accurate vaccines, capable of prevent and cure more effectively from different illness in higher percentages.
 
-The clinical trial history has produced distrust toward the black community and other minorities to participate in them. To solved this problem for the first phase we are working on alliances with HBCUs partners universities and pharmas, and community leaders, so that these groups can relate with the ones that are doing the research and we can increase their participation. 
+The clinical trial history has produced distrust toward the black community and other minorities to participate in them. To solved this problem for the first phase we are working on alliances with HBCUs partners universities and pharmas, and community leaders, so that these groups can relate with the ones that are doing the research and we can increase their participation.
+
+More information ![](hbcutrust.com).
 
 [return to Work](./)
