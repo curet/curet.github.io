@@ -11,6 +11,6 @@ The reason is very important for blacks, latinos and other minorities to partici
 
 The clinical trial history has produced distrust toward the black community and other minorities to participate in them. To solved this problem for the first phase we are working on alliances with HBCUs partners universities and pharmas, and community leaders, so that these groups can relate with the ones that are doing the research and we can increase their participation.
 
-More information ![](hbcutrust.com).
+More information [HBCU Trust](hbcutrust.com).
 
 [return to Work](./)
