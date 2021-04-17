@@ -61,7 +61,11 @@ April 2021
 April 2021
 
 [News](.) soon ...<br />
-April 2021-->
+April 2021
+
+[Blog](.) soon ...<br />
+April 2021
+-->
 
 ### Contact
 
