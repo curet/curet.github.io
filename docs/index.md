@@ -1,10 +1,11 @@
 ## Work
 
+<!--
 ### iOS Development
 
 Updating soon ...<br />
 February 2021
-
+-->
 
 ### Computer Science
 
@@ -30,19 +31,25 @@ April 2020 -->
 
 ### Web Development
 
-[Business](.) ... soon ...<br />
+[Business](.) soon ...<br />
 April 2021
 
+[Fashion](.) soon ...<br />
 April 2021
 
+[Store](.) soon ...<br />
 April 2021
 
+[Influencer](.) soon ...<br />
 April 2021
 
+[Software Engineer](.) soon ...<br />
 April 2021
 
+[Personal Brand](.) soon ...<br />
 April 2021
 
+[News](.) soon ...<br />
 April 2021
 
 ### Statistics and Visualizations
