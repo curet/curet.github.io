@@ -41,7 +41,7 @@ June 2020
 May 2020
 
 ### Web Development
-
+<!--
 [Business](.) soon ...<br />
 April 2021
 
@@ -61,7 +61,7 @@ April 2021
 April 2021
 
 [News](.) soon ...<br />
-April 2021
+April 2021-->
 
 ### Contact
 
