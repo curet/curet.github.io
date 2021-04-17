@@ -29,6 +29,17 @@ April 2020 -->
 
 [<hr style="height:0.5px;border-width:0;color:gray;background-color:gray">]:#
 
+### Statistics and Visualizations
+
+[HBCU Trust - 2015-2019 Average of Clinical Trials Participants](https://public.tableau.com/profile/jos.constantino.s.nchez.curet#!/vizhome/SexRaceAgeFDAclinicaltrialsparticipans2020report/bubbles)<br />
+April 2021
+
+[Replicathon 2020 - IQ BIO REU](./replicathon_2020)<br />
+June 2020
+
+[Evaluating p-values](./pvals_eval)<br />
+May 2020
+
 ### Web Development
 
 [Business](.) soon ...<br />
@@ -51,17 +62,6 @@ April 2021
 
 [News](.) soon ...<br />
 April 2021
-
-### Statistics and Visualizations
-
-[HBCU Trust - 2015-2019 Average of Clinical Trials Participants](https://public.tableau.com/profile/jos.constantino.s.nchez.curet#!/vizhome/SexRaceAgeFDAclinicaltrialsparticipans2020report/bubbles)<br />
-April 2021
-
-[Replicathon 2020 - IQ BIO REU](./replicathon_2020)<br />
-June 2020
-
-[Evaluating p-values](./pvals_eval)<br />
-May 2020
 
 ### Contact
 
