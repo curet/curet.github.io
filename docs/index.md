@@ -39,8 +39,8 @@ June 2020
 
 [Evaluating p-values](./pvals_eval)<br />
 May 2020
-<!--
-### Web Development
+
+<!--- ### Web Development
 
 [Business](.) soon ...<br />
 April 2021
@@ -65,8 +65,10 @@ April 2021
 
 [Blog](.) soon ...<br />
 April 2021
--->
+
 
 ### Contact
 
 Write me at: <a href="mailto:jose.sanchezcuret@upr.edu">jose.sanchezcuret@upr.edu</a>
+
+--->
